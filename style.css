@@ -1,0 +1,40 @@
+.blue {
+    background-color: #74e4fa;
+    color: #7c3b90;
+}
+
+.green {
+    background-color: #3b905e;
+    color: #dcdc1e;
+}
+
+.btns {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 16px;
+}
+
+.place-image-wrapper {
+    height: 500px;
+    width: 60%;
+    overflow: hidden;
+}
+
+.place-image {
+    height: 100%;
+    width: 100%;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+
+.img-increase {
+    transform: scale(1.5, 1.5);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+
+.hide {
+    display: none;
+}
